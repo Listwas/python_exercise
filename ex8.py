@@ -5,4 +5,7 @@
 #4 4 4 4 
 #5 5 5 5 5
 
-        
+
+for item in range(1,6):
+    print((str(item) + " ") * item)
+
