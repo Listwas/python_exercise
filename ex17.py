@@ -1,3 +1,5 @@
+#Generate Fibonacci series up to 15 terms#
+
 num1, num2 = 0, 1
 
 for i in range(15):
