@@ -6,10 +6,7 @@ def is_palindrome(num):
     str_num = str(num)
     reversed_num = str_num[::-1]
 
-    if str_num == reversed_num:
-        return True
-    else:
-        return False
+    return str_num == reversed_num:
 
 num = int(input("number: "))
 print(is_palindrome(num))

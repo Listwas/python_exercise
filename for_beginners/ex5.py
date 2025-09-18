@@ -7,11 +7,8 @@ def check_list(x):
     print("your list: ", x)
     first = x[0]
     last = x[-1]
-    
-    if first == last:
-        return True
-    else:
-        return False
+
+    return first == last
 
 print(check_list(numbers_x))
 print(check_list(numbers_y))
