@@ -3,7 +3,7 @@
 def main():
     quit = 0
     while quit == 0:
-        print("1.say hello 2.calculate square 3.exit")
+        print("1.say hello 2.raise to power 3.exit")
         option = int(input("select option: "))
 
         match option:
