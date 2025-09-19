@@ -10,3 +10,6 @@ print("-"*20)
 for name, score in zip(names, scores):
     print(f"{name:<10} {score:<5}")
 
+# or
+#for i in range(len(names)):
+#    print(f"{names[i]:<10} {scores[i]:<5}")
